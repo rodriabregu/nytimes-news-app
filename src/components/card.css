@@ -1,0 +1,41 @@
+.sheet {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.sheet h5 {
+    font-size: 15px;
+}
+
+.cardI {
+    margin: 30px;
+    background: rgba(167, 167, 167, 0.419);
+    border-radius: 5px;
+}
+
+.cardI img{
+    border-radius: 2px;
+}
+
+@media (max-width: 800px) {
+    .sheet {
+        flex-direction: column;
+    }
+    .cardI {
+        margin: 20px;
+        background: rgba(167, 167, 167, 0.419);
+        border-radius: 5px;
+        transform: scale(0.8);
+    }
+    .cardI h5 {
+        height: 10px;
+        margin-bottom: 40px;
+        font-size: 22px;
+    }
+    .cardI img {
+        margin: 20px;
+        transform: scale(0.9);
+    }
+  }
