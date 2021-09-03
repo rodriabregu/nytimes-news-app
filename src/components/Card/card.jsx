@@ -15,11 +15,13 @@ useEffect(() => {
         <div className='sheet'>
             {info?.map(e => {
                 return (
-                    <div className='cardI'>
-                    {console.log(e)}
-                        <a href={e.url} target="_blank">
+                    <div>
+                        <a className='linkref' style={{ textDecoration: 'none' }} href={e.url} target="_blank" without rel="noreferrer">
+                        <div className='cardI'>
+                            {console.log(e)}
                             <h5>{e.title}{<br/>}</h5>
-                            <img width='400' height='400' src={e.multimedia[0]?.url}/>
+                            <img width='400' height='400' src={e.multimedia[0]?.url} alt='hola'/>
+                        </div>
                         </a>
                     </div>
                 )

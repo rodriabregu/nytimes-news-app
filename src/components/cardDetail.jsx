@@ -1,5 +1,3 @@
-
-
 const CardDetail = () => {
     return (
         <div>

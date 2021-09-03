@@ -1,11 +1,7 @@
-import logo from './logo.svg';
+import Cards from './components/Cards/cards.jsx';
 import './App.css';
-import Cards from './components/cards.jsx';
 
 function App() {
-
-
-
   return (
     <div className="App">
       <header className="App-header">
